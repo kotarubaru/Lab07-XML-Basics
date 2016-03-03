@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- TODO define your own vocabulary/syntax. Example follows:  -->
+<!ELEMENT TIMESLOT (DAY, TIME, COURSE)>
+<!ELEMENT DAY (#PCDATA)>
+<!ATTLIST DAY
+    type    (Mon|Tue|Wed|Thu|Fri) ""
+>
+<!ELEMENT TIME (#PCDATA)>
+<!ATTLIST TIME
+    start (8:30|9:30|10:30|11:30|12:30|13:30|14:30|15:30|16:30) ""
+    end (9:20|10:20|11:20|12:20|13:20|14:20|15:20|16:20|17:20) ""
+>
+<!ELEMENT COURSE (INSTRUCTOR, COURSEID, ROOMNO, ACTIVITY)>
+<!ELEMENT INSTRUCTOR (#PCDATA)>
+<!ELEMENT COURSEID (#PCDATA)>
+<!ELEMENT ROOMNO (#PCDATA)>
+<!ELEMENT ACTIVITY (#PCDATA)>
+<!ATTLIST ACTIVITY
+    type    (Lec|Lab) ""
+>
