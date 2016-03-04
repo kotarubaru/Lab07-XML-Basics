@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE timetable SYSTEM 'timetable.dtd'>
+<timetable>
+	<timeslots>
+	</timeslots>
+	<days>
+	</days>
+	<courses>
+	</courses>
+</timetable>
+
