@@ -34,7 +34,8 @@ Timeslots specify courses that start at a particular time of day, spanning acros
 Days orders courses within each day, spcifying the details about every day 
 -->
 <!ELEMENT days (day*)>
-<!ELEMENT weekday (booking+)>
-<!ATTLIST weekday
-        day (Mon|Tue|Wed|Thu|Fri) #IMPLIED
+<!ELEMENT day (booking+)>
+<!ATTLIST day
+	day (Mon|Tue|Wed|Thu|Fri) #REQUIRED
 >
+
