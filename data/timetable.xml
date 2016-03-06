@@ -30,5 +30,32 @@
 			<booking day="Mon" end-time="5:20" course="4650" instructor="Medhat" activity="Lec" room="SE6-205" />
 		</timeslot>
 	</timeslots>
+        
+	<courses>
+		<course course="4620">
+			<booking day="Tue" start-time="10:30" end-time="12:20" instructor="Bethany" activity="Lab" room="SE12-306" />
+                        <booking day="Tue" start-time="3:30" end-time="5:20" instructor="Bethany" activity="Lec" room="SW3-3615" />
+		</course>
+		<course course="4650">
+			<booking day="Mon" start-time="4:30" end-time="5:20" instructor="Medhat" activity="Lec" room="SE6-205" />
+                        <booking day="Tue" start-time="12:30" end-time="1:20" instructor="Medhat" activity="Lec" room="SW9-206" />
+                        <booking day="Tue" start-time="1:30" end-time="3:20" instructor="Medhat" activity="Lab" room="SE12-306" />
+		</course>
+		<course course="4660">
+			<booking day="Wed" start-time="10:30" end-time="12:20" instructor="Steve" activity="Lab" room="SE12-306" />
+			<booking day="Fri" start-time="8:30" end-time="10:20" instructor="Steve" activity="Lec" room="SW9-206" />
+		</course>
+                <course course="4770">
+                        <booking day="Mon" start-time="1:30" end-time="3:20" instructor="Trevor" activity="Tut" room="SE12-306" />
+                </course>
+                <course course="4850">
+                        <booking day="Wed" start-time="12:30" end-time="2:20" instructor="James" activity="Lec" room="SW3-1750" />
+                        <booking day="Thu" start-time="10:30" end-time="12:20" instructor="James" activity="Lab" room="SE12-320" />
+                </course>
+                <course course="4910">
+                        <booking day="Mon" start-time="3:30" end-time="4:20" instructor="Richard" activity="Lec" room="SW9-206" />
+                        <booking day="Thu" start-time="9:30" end-time="10:20" instructor="Richard" activity="Lec" room="SW5-1840" />
+                        <booking day="Thu" start-time="1:30" end-time="3:20" instructor="Richard" activity="Lab" room="SE12-306" />
+                </course>
+        </courses>
 </timetable>
-
